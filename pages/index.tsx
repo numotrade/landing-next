@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,7 +11,7 @@ export default function Home() {
         </p>
         <Link
           href="app.numoen.com"
-          className="px-4 py-2 text-white bg-black rounded"
+          className="px-4 py-2 text-white bg-black rounded-xl"
         >
           Launch App
         </Link>
