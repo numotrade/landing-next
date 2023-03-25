@@ -22,13 +22,19 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:title" content={"Numoen"} />
         <meta property="og:description" content={description} />
         <meta property="og:site_name" content={"Numoen"} />
-        <meta property="og:image" content="/image.png" />
+        <meta
+          property="og:image"
+          content="https://landing-next-jade.vercel.app/image.png"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content={"numoen"} />
         <meta property="twitter:title" content={"Numoen"} />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content="/image.png" />
+        <meta
+          property="twitter:image"
+          content="https://landing-next-jade.vercel.app/image.png"
+        />
       </Head>
       <main
         className={`${inter.className} flex flex-col items-center min-h-screen p-10`}
