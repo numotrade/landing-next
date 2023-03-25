@@ -8,7 +8,7 @@ const inter = Inter({
   subsets: ["greek"],
 });
 
-const description = "";
+const description = "description";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -18,16 +18,17 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content={description} />
 
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://numoen.com" />
         <meta property="og:title" content={"Numoen"} />
         <meta property="og:description" content={description} />
         <meta property="og:site_name" content={"Numoen"} />
-        <meta property="og:image" content="/numoen.svg" />
+        <meta property="og:image" content="/image.png" />
 
-        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content={"numoen"} />
         <meta property="twitter:title" content={"Numoen"} />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content="/numoen.svg" />
+        <meta property="twitter:image" content="/image.png" />
       </Head>
       <main
         className={`${inter.className} flex flex-col items-center min-h-screen p-10`}
