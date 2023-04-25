@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import Button from "@/components/button";
+
 export default function Home() {
   return (
     <>
@@ -7,13 +9,10 @@ export default function Home() {
         <h1 className="text-center">Decentralized Derivatives Exchange</h1>
         <p className="p1 max-w-md text-center text-secondary">
           Access leverage with no counterparty risk, liquidations, or oracles,
-          on any market.
+          on any token.
         </p>
-        <Link
-          href="https://app.numoen.com"
-          className="p2 rounded-xl bg-black px-4 py-2 text-white"
-        >
-          Launch App
+        <Link href="https://app.numoen.com">
+          <Button variant="primary">Launch App</Button>
         </Link>
       </div>
     </>

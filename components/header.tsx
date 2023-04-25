@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import Button from "./button";
+
 export default function Header() {
   return (
     <div className="fixed top-4 z-10 flex w-full justify-center px-6">
@@ -15,9 +17,11 @@ export default function Header() {
         <Link className="hidden hover:opacity-80 md:flex" href="/earn/">
           <p className="p2 text-white">Resources</p>
         </Link>
-        <a className="grid h-10 items-center rounded-xl bg-gray-800 px-4">
-          <p className="p2 text-white">Launch App</p>
-        </a>
+        <Link href="https://app.numoen.com">
+          <Button variant="primary" className="bg-gray-800">
+            Launch App
+          </Button>
+        </Link>
       </div>
     </div>
   );
@@ -25,7 +29,7 @@ export default function Header() {
 
 const NumoenIcon: React.FC = () => {
   return (
-    <div className="rounded-xl bg-white p-1.5">
+    <div className="h-10 w-10 rounded-xl bg-white p-1.5">
       <Image
         src="/numoen.svg"
         alt="Numoen Logo"
