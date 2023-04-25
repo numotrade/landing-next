@@ -56,7 +56,7 @@ export default function Button({
       }}
     >
       {loading ? (
-        <div tw="flex items-center gap-2">
+        <div className="flex items-center gap-2">
           {children}
           {/* <LoadingSpinner tw="ml-2 mb-0.5" /> */}
         </div>

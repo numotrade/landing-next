@@ -17,7 +17,7 @@
     "prettier"
   ],
   "rules": {
-    "react/no-unknown-property": ["error", { "ignore": ["tw", "css"] }],
+    "react/no-unknown-property": "error",
     // `@typescript-eslint`
     // https://github.com/typescript-eslint/typescript-eslint
     "@typescript-eslint/consistent-type-assertions": "error",
