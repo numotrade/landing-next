@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import type { AppProps } from "next/app";
 
 import { Inter } from "next/font/google";
@@ -42,6 +43,7 @@ export default function App({ Component, pageProps }: AppProps) {
         className={`${inter.className} flex min-h-screen flex-col items-center p-10`}
       >
         <Component {...pageProps} />
+        <Analytics />
       </main>
     </Layout>
   );

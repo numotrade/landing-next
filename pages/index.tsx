@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="flex w-full max-w-5xl flex-col items-center justify-between gap-8 rounded-xl border border-gray-200 bg-white p-6 pt-24 text-sm">
         <h1 className="text-center">Decentralized Derivatives Exchange</h1>
-        <p className="p1 max-w-md text-center text-secondary">
+        <p className="p3 max-w-md text-center text-lg">
           Access leverage with no counterparty risk, liquidations, or oracles,
           on any token.
         </p>

@@ -32,7 +32,7 @@ body {
   }
 
   .p3 {
-    @apply font-medium text-secondary;
+    @apply font-medium text-gray-500;
   }
 
   .p4 {
