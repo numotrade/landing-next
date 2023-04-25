@@ -6,6 +6,8 @@ const gray = {
   300: "#cfcfcf",
   500: "#8f8f8f",
   700: "#505050",
+  800: "#4f4f4f",
+  900: "#303030",
 };
 
 const textColor = {

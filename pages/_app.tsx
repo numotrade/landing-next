@@ -10,7 +10,7 @@ const inter = Inter({
   subsets: ["greek"],
 });
 
-const description = "description";
+const description = "Decentralized derivatives exchange";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

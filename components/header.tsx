@@ -3,35 +3,20 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="fixed z-10 flex justify-center w-full px-6 top-4">
-      <div className="justify-between bg-[#303030] rounded-2xl max-w-lg  w-full flex items-center p-1 ">
+    <div className="fixed top-4 z-10 flex w-full justify-center px-6">
+      <div className="flex w-full max-w-lg items-center  justify-between rounded-2xl bg-gray-900 p-1 ">
         <NumoenIcon />
-        <Link
-          className="hidden text-white hover:opacity-80 md:flex"
-          href="/trade/"
-        >
-          <p>Blog</p>
+        <Link className="hidden hover:opacity-80 md:flex" href="/trade/">
+          <p className="p2 text-white">Blog</p>
         </Link>
-        <Link
-          className="hidden text-white hover:opacity-80 md:flex"
-          href="/earn/"
-        >
-          <p>Developers</p>
+        <Link className="hidden hover:opacity-80 md:flex" href="/earn/">
+          <p className="p2 text-white">Developers</p>
         </Link>
-        {/* <Link
-          className="hidden text-white hover:opacity-80 md:flex"
-          href="/earn/"
-        >
-          <p>Community</p>
-        </Link> */}
-        <Link
-          className="hidden text-white hover:opacity-80 md:flex"
-          href="/earn/"
-        >
-          <p>Resources</p>
+        <Link className="hidden hover:opacity-80 md:flex" href="/earn/">
+          <p className="p2 text-white">Resources</p>
         </Link>
-        <a className="bg-[#4f4f4f] rounded-xl items-center px-4 h-10 grid">
-          <p className="font-semibold text-white">Launch App</p>
+        <a className="grid h-10 items-center rounded-xl bg-gray-800 px-4">
+          <p className="p2 text-white">Launch App</p>
         </a>
       </div>
     </div>
@@ -40,7 +25,7 @@ export default function Header() {
 
 const NumoenIcon: React.FC = () => {
   return (
-    <div className="p-1.5 bg-white rounded-xl">
+    <div className="rounded-xl bg-white p-1.5">
       <Image
         src="/numoen.svg"
         alt="Numoen Logo"
