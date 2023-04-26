@@ -1,21 +1,27 @@
 import { Popover as HeadlessPopover } from "@headlessui/react";
+import type { Placement } from "@popperjs/core";
+import { clsx } from "clsx";
 import { useState } from "react";
 import { usePopper } from "react-popper";
 
 export default function Popover({
   button,
   contents,
+  className,
+  placement,
+  ...props
 }: {
   button: React.ReactNode;
   contents: React.ReactNode;
-}) {
+  placement: Placement;
+} & React.ComponentProps<typeof HeadlessPopover>) {
   const [referenceElement, setReferenceElement] =
     useState<HTMLButtonElement | null>(null);
   const [popperElement, setPopperElement] = useState<HTMLDivElement | null>(
     null
   );
   const { styles, attributes } = usePopper(referenceElement, popperElement, {
-    placement: "auto-start",
+    placement,
     modifiers: [
       {
         name: "offset",
@@ -26,11 +32,8 @@ export default function Popover({
     ],
   });
   return (
-    <HeadlessPopover className="relative">
-      <HeadlessPopover.Button
-        ref={setReferenceElement}
-        className="flex items-center gap-2 rounded-xl px-4 py-2"
-      >
+    <HeadlessPopover {...props} className={clsx(className, "relative")}>
+      <HeadlessPopover.Button ref={setReferenceElement} className="rounded-xl">
         {button}
       </HeadlessPopover.Button>
 

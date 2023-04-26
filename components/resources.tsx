@@ -10,14 +10,16 @@ const size = 20;
 export default function Resources() {
   return (
     <Popover
+      placement="bottom-start"
+      className="hidden sm:flex"
       button={
-        <>
+        <div className="flex items-center gap-2 px-2 py-1">
           <p className="p2 text-white">Resources</p>
           <IoIosArrowDown className="transform fill-white duration-300 ui-open:-rotate-180" />
-        </>
+        </div>
       }
       contents={
-        <div className="grid rounded-xl bg-gray-900 p-2">
+        <div className="grid rounded-xl bg-gray-900 p-1">
           <Link
             className="resource-item"
             href="https://numoen.gitbook.io/numoen"
