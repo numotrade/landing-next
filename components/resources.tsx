@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FaDiscord } from "react-icons/fa";
 import { ImBook, ImGithub, ImTwitter } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
+import { SiMedium } from "react-icons/si";
 
 import Popover from "./popover";
 
@@ -49,6 +50,10 @@ export default function Resources() {
           >
             <ImTwitter size={size} />
             <p>Twitter</p>
+          </Link>
+          <Link className="resource-item" href="https://medium.com/numoen">
+            <SiMedium size={size} />
+            <p>Blog</p>
           </Link>
         </div>
       }

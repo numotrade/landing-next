@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import React from "react";
 
 import Background from "./background";
+import Footer from "./footer";
 import Header from "./header";
 
 const inter = Inter({
@@ -18,6 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       >
         {children}
       </main>
+      <Footer />
     </>
   );
 }

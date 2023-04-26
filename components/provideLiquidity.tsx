@@ -4,7 +4,7 @@ import TokenIcon from "./tokenIcon";
 
 export default function ProvideLiquidity() {
   return (
-    <div className="earn-card ">
+    <div className="earn-card hidden sm:flex">
       <div
         className={clsx(
           "h-24 w-full p-2",

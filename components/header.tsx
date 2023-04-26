@@ -10,7 +10,10 @@ export default function Header() {
     <div className="fixed top-4 z-10 flex w-full justify-center px-8 sm:px-10">
       <div className="flex w-full max-w-md items-center justify-between rounded-2xl bg-gray-900 p-1">
         <NumoenIcon />
-        <Link className="hidden hover:opacity-80 sm:flex" href="/">
+        <Link
+          className="hidden rounded-xl px-2 py-1 hover:opacity-80 sm:flex"
+          href="/"
+        >
           <p className="p2 text-white">Developers</p>
         </Link>
         <Resources />
