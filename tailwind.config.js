@@ -30,5 +30,5 @@ module.exports = {
       textColor,
     },
   },
-  plugins: [],
+  plugins: [require("@headlessui/tailwindcss")],
 };

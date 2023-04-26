@@ -15,10 +15,10 @@ body {
 
 @layer base {
   h1 {
-    @apply text-4xl font-bold text-default;
+    @apply text-2xl font-bold text-default sm:text-4xl;
   }
   h2 {
-    @apply text-2xl font-bold text-default;
+    @apply text-xl font-bold text-default sm:text-2xl;
   }
 }
 
@@ -41,5 +41,13 @@ body {
 
   .p5 {
     @apply text-xs font-medium text-secondary;
+  }
+
+  .top-card {
+    @apply flex w-full max-w-5xl flex-col items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white p-4 pt-12 sm:gap-8 sm:p-6 sm:pt-24;
+  }
+
+  .resource-item {
+    @apply p2 flex transform items-center gap-2 rounded-xl p-2 text-white duration-200 hover:bg-gray-800;
   }
 }
