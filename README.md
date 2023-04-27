@@ -4,11 +4,3 @@
 [gha-badge]: https://github.com/Numoen/landing-next/actions/workflows/main.yml/badge.svg
 
 Numoen landing page built with Next.js
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-pnpm dev
-```
