@@ -44,7 +44,7 @@ body {
   }
 
   .top-card {
-    @apply w-full max-w-5xl items-center gap-4 rounded-xl border border-gray-200 bg-white p-4;
+    @apply w-full max-w-5xl items-center gap-4 rounded-xl border-2 border-gray-200 bg-white p-4;
   }
 
   .resource-item {
@@ -52,7 +52,7 @@ body {
   }
 
   .earn-card {
-    @apply flex h-[220px] w-[244px] transform flex-col overflow-clip rounded-xl rounded-b-none border border-b-0 duration-300 sm:hover:scale-105;
+    @apply flex h-[220px] w-[244px] transform flex-col overflow-clip rounded-xl rounded-b-none border-2 border-b-0 duration-300 sm:hover:scale-105;
   }
 
   .liquid-staking-bg {
