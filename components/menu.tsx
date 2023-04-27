@@ -25,12 +25,10 @@ export default function Menu() {
             <p className="p2 text-white">Developers</p>
           </Link>
           <Disclosure
-            as="div"
-            className="grid"
             button={
               <div className="flex w-48 items-center justify-between p-2">
                 <p className="p2 text-white">Resources</p>
-                <IoIosArrowDown className="fill-white" />
+                <IoIosArrowDown className=" fill-white " />
               </div>
             }
             contents={

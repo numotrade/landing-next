@@ -6,8 +6,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-        <title>Numoen</title>
         <meta name="description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://numoen.com" />

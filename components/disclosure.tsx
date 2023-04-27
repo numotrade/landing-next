@@ -10,7 +10,7 @@ export default function Disclosure({
   contents: React.ReactNode;
 } & React.ComponentProps<typeof HeadlessDisclosure>) {
   return (
-    <HeadlessDisclosure as="div" className={className} {...props}>
+    <HeadlessDisclosure className={className} {...props}>
       <HeadlessDisclosure.Button>{button}</HeadlessDisclosure.Button>
       <HeadlessDisclosure.Panel className="">
         {contents}
