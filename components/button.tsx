@@ -49,7 +49,7 @@ export default function Button({
         variant === "primary" && "bg-black",
         variant === "inverse" && "bg-white text-default",
         variant === "danger" && "bg-red",
-        "disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-secondary"
+        "disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-secondary",
       )}
       style={{
         ...props.style,

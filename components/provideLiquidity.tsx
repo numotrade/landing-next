@@ -8,7 +8,7 @@ export default function ProvideLiquidity() {
       <div
         className={clsx(
           "h-24 w-full p-2",
-          "bg-gradient-to-tr from-[#7c7c84] to-[#2474cc]"
+          "bg-gradient-to-tr from-[#7c7c84] to-[#2474cc]",
         )}
       >
         <p className="w-fit rounded-lg bg-white bg-opacity-50 p-2 font-medium">

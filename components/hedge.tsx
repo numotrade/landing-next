@@ -9,7 +9,7 @@ export default function Hedge() {
       <div
         className={clsx(
           "h-24 w-full p-2",
-          "bg-gradient-to-tr from-[#fff] to-[#ff007a]"
+          "bg-gradient-to-tr from-[#fff] to-[#ff007a]",
         )}
       >
         <p className="w-fit rounded-lg bg-white bg-opacity-50 p-2 font-medium">
