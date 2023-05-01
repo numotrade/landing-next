@@ -37,4 +37,4 @@ jobs:
       - name: Check types
         run: pnpm tsc
       - name: Lint
-        run: pnpm lint:fix
+        run: pnpm lint --apply
