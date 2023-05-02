@@ -14,8 +14,8 @@ export default function Home() {
       <Head>
         <title>Numoen</title>
       </Head>
-      <div className="top-card grid h-[90vh] grid-rows-2 justify-center overflow-clip pt-12 sm:grid-rows-3 sm:pt-0">
-        <div className="flex h-full flex-col items-center gap-8 sm:row-start-2">
+      <div className="top-card flex flex-col h-[90vh] overflow-clip pt-12 sm:pt-24">
+        <div className="flex h-full flex-col items-center gap-8">
           <h1 className="text-center">Decentralized Derivatives Exchange</h1>
           <p className="p3 max-w-md text-center text-lg">
             Access leverage with no counterparty risk, liquidations, or oracles,
@@ -25,7 +25,7 @@ export default function Home() {
             <Button variant="primary">Launch App</Button>
           </Link>
         </div>
-        <div className="relative -bottom-10 flex w-full items-center justify-center gap-4 sm:row-start-3">
+        <div className="relative grow-0 -bottom-10 flex w-full items-center justify-center gap-4 sm:row-start-3">
           <LiquidStaking />
           <ProvideLiquidity />
           <Hedge />
