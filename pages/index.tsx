@@ -58,10 +58,10 @@ export default function Home() {
           <p className="p1">Backers</p>
         </Link>
         <div className="grid w-full gap-6 sm:grid-cols-3">
-          <div className=" rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center h-full justify-center w-full flex">
+          <div className="h-24 rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center justify-center w-full flex">
             <Image src="/social.png" alt="social" width={363} height={34} />
           </div>
-          <div className=" rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center h-full justify-center w-full flex">
+          <div className="h-24 rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center justify-center w-full flex">
             <Image
               src="/newform.svg"
               className="fill-black text-black"
@@ -70,7 +70,7 @@ export default function Home() {
               height={100}
             />
           </div>
-          <div className=" rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center h-full justify-center w-full flex">
+          <div className="h-24 rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center justify-center w-full flex">
             <Image
               src="celo.svg"
               alt="celo"
