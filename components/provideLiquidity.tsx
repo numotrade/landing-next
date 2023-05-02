@@ -1,6 +1,5 @@
-import { clsx } from "clsx";
-
 import TokenIcon from "./tokenIcon";
+import { clsx } from "clsx";
 
 export default function ProvideLiquidity() {
   return (

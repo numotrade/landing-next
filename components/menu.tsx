@@ -1,11 +1,10 @@
+import Disclosure from "./disclosure";
+import Popover from "./popover";
 import Link from "next/link";
 import { FaDiscord } from "react-icons/fa";
 import { ImBook, ImGithub, ImTwitter } from "react-icons/im";
 import { IoIosArrowDown, IoIosMenu } from "react-icons/io";
 import { SiMedium } from "react-icons/si";
-
-import Disclosure from "./disclosure";
-import Popover from "./popover";
 
 const size = 20;
 
@@ -21,9 +20,9 @@ export default function Menu() {
       }
       contents={
         <div className="flex w-full flex-col rounded-xl bg-gray-900 p-1">
-          <Link className="p-2 hover:opacity-80" href="/earn/">
+          {/* <Link className="p-2 hover:opacity-80" href="/developers">
             <p className="p2 text-white">Developers</p>
-          </Link>
+          </Link> */}
           <Disclosure
             button={
               <div className="flex w-48 items-center justify-between p-2">

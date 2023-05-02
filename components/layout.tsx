@@ -1,9 +1,8 @@
-import { Inter } from "next/font/google";
-import React from "react";
-
 import Background from "./background";
 import Footer from "./footer";
 import Header from "./header";
+import { Inter } from "next/font/google";
+import React from "react";
 
 const inter = Inter({
   subsets: ["greek"],

@@ -1,12 +1,10 @@
-import Head from "next/head";
-import Link from "next/link";
-
-import { IoIosArrowForward } from "react-icons/io";
-
 import Button from "@/components/button";
 import Hedge from "@/components/hedge";
 import LiquidStaking from "@/components/liquidStaking";
 import ProvideLiquidity from "@/components/provideLiquidity";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -32,10 +30,10 @@ export default function Home() {
         </div>
       </div>
       <div className="flex w-full flex-col gap-4">
-        <Link href="/" className="flex w-full items-center gap-2">
+        {/* <Link href="/developers" className="flex w-full items-center gap-2">
           <p className="p1">Developers</p>
           <IoIosArrowForward className="fill-black" />
-        </Link>
+        </Link> */}
         <h2 className="mb-6 w-full">
           Numoen developed a next-generation{" "}
           <span className="text-[#3b82f6]">Power Market Maker Protocol</span>
@@ -52,6 +50,34 @@ export default function Home() {
           <div className="">
             <p className="p2">Open-source and audited</p>
             <p className="p3">badfjhakfjasdkljfklas fjkdasljf jfkadjfkadjfa</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex w-full flex-col gap-4 pt-32">
+        <Link href="/developers" className="flex w-full items-center gap-2">
+          <p className="p1">Backers</p>
+        </Link>
+        <div className="grid w-full gap-6 sm:grid-cols-3">
+          <div className=" rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center h-full justify-center w-full flex">
+            <Image src="/social.png" alt="social" width={363} height={34} />
+          </div>
+          <div className=" rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center h-full justify-center w-full flex">
+            <Image
+              src="/newform.svg"
+              className="fill-black text-black"
+              alt="newform"
+              width={200}
+              height={100}
+            />
+          </div>
+          <div className=" rounded-xl border-2 border-gray-200 bg-white p-6 transform ease-in-out hover:scale-105 duration-300 items-center h-full justify-center w-full flex">
+            <Image
+              src="celo.svg"
+              alt="celo"
+              width={200}
+              height={100}
+              className=""
+            />
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
+import TokenIcon from "./tokenIcon";
 import { clsx } from "clsx";
 import Image from "next/image";
-
-import TokenIcon from "./tokenIcon";
 
 export default function Hedge() {
   return (
