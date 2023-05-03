@@ -14,10 +14,10 @@ export default function Home() {
       </Head>
       <div className="top-card flex flex-col h-[90vh] overflow-clip pt-12 sm:pt-24">
         <div className="flex h-full flex-col items-center gap-8">
-          <h1 className="text-center">Decentralized Derivatives Exchange</h1>
+          <h1 className="text-center">Decentralized Hedging and Speculation</h1>
           <p className="p3 max-w-md text-center text-lg">
-            Access leverage with no counterparty risk, liquidations, or oracles,
-            on any token.
+            Access derivatives with no counterparty risk, liquidations, or
+            oracles, on any token.
           </p>
           <Link href="https://app.numoen.com">
             <Button variant="primary">Launch App</Button>
@@ -40,16 +40,24 @@ export default function Home() {
         </h2>
         <div className="grid w-full gap-6 sm:grid-cols-3">
           <div className="">
-            <p className="p2">Liquidation-free derivatives on any token</p>
-            <p className="p3">badfjhakfjasdkljfklas fjkdasljf jfkadjfkadjfa</p>
+            <p className="p2">Gamma Neutral Vault</p>
+            <p className="p3">
+              Impermanent loss of Uniswap can be offset by PMMP derivatives.
+            </p>
           </div>
           <div className="">
-            <p className="p2">No oracles or admin keys</p>
-            <p className="p3">badfjhakfjasdkljfklas fjkdasljf jfkadjfkadjfa</p>
+            <p className="p2">Real Decentralization</p>
+            <p className="p3">
+              A protocol owned by no one. PMMP has no governable parameters and
+              no external oracle dependencies.
+            </p>
           </div>
           <div className="">
-            <p className="p2">Open-source and audited</p>
-            <p className="p3">badfjhakfjasdkljfklas fjkdasljf jfkadjfkadjfa</p>
+            <p className="p2">Open-source and Audited</p>
+            <p className="p3">
+              The codebase is 100% open source and completely immutable. Please
+              check the docs to review our audits.
+            </p>
           </div>
         </div>
       </div>
