@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="fixed top-4 z-10 flex w-full justify-center px-8 sm:px-10">
-      <div className="flex w-full max-w-xs items-center justify-between rounded-2xl bg-gray-900 p-1">
+      <div className="flex w-full max-w-xs items-center justify-between rounded-2xl bg-gray-900 border border-gray-700 p-1">
         <NumoenIcon />
         {/* <Link
           className="hidden rounded-xl px-2 py-1 hover:opacity-80 sm:flex"

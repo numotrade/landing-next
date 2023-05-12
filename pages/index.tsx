@@ -36,7 +36,7 @@ export default function Home() {
         </Link> */}
         <h2 className="mb-6 w-full">
           Numoen developed a next-generation{" "}
-          <span className="text-[#3b82f6]">Power Market Maker Protocol</span>
+          <span className="text-brand">Power Market Maker Protocol</span>
         </h2>
         <div className="grid w-full gap-6 sm:grid-cols-3">
           <div className="">
