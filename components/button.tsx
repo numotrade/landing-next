@@ -32,6 +32,7 @@ export default function Button({
   return (
     <button
       {...props}
+      type="button"
       onClick={
         onClick
           ? async (e) => {
