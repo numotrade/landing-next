@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Numoen</title>
       </Head>
-      <div className="top-card flex flex-col h-[90vh] overflow-clip pt-12 sm:pt-24">
+      <div className="top-card flex flex-col h-[90vh] overflow-clip pt-12 sm:pt-24 max-h-[600px]">
         <div className="flex h-full flex-col items-center gap-8">
           <h1 className="text-center">Hedge any Uniswap Position</h1>
           <p className="p3 max-w-md text-center text-lg">
