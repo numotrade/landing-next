@@ -41,7 +41,8 @@ export default function Home() {
           <div className="">
             <p className="p2">Liquidation Free</p>
             <p className="p3">
-              Each leveraged position is an LP share that continously looses or appreciates in value.
+              Each leveraged position is an LP share that continously looses or
+              appreciates in value.
             </p>
           </div>
           <div className="">
