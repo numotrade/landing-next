@@ -1,6 +1,6 @@
 import { Head, Html, Main, NextScript } from "next/document";
 
-const description = "Decentralized derivatives exchange";
+const description = "cyrptocurrency derivatives exchange";
 
 export default function Document() {
   return (

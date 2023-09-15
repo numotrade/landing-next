@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <div className="top-card flex flex-col h-[90vh] overflow-clip pt-12 sm:pt-24 max-h-[600px]">
         <div className="flex h-full flex-col items-center gap-8">
-          <h1 className="text-center">Leverage with No Liquidations</h1>
+          <h1 className="text-center">Power perpetuals</h1>
           <p className="p3 max-w-md text-center text-lg">
-            Get leverage on any token without worrying about liquidations.
+            Hedge your impermanent loss with power perpetuals.
           </p>
           <Link href="https://app.numoen.com">
             <Button variant="primary">Launch App</Button>
@@ -34,22 +34,22 @@ export default function Home() {
           <IoIosArrowForward className="fill-black" />
         </Link> */}
         <h2 className="mb-6 w-full">
-          Numoen is a derivatives exchange on the{" "}
-          <span className="text-brand">Power Market Maker Protocol (PMMP)</span>
+          An oracle-free, trustless{" "}
+          <span className="text-brand">Power Perpetual</span>
         </h2>
         <div className="grid w-full gap-6 sm:grid-cols-3">
           <div className="">
-            <p className="p2">Liquidation Free</p>
+            <p className="p2">Continous liquidation</p>
             <p className="p3">
-              Each leveraged position is an LP share that continously looses or
+              Each power perpetual is an LP share that continously looses or
               appreciates in value.
             </p>
           </div>
           <div className="">
-            <p className="p2">Fully Decentralized</p>
+            <p className="p2">Decentralized completely</p>
             <p className="p3">
-              A protocol owned by no one. PMMP has no governable parameters and
-              no external oracle dependencies.
+              A protocol owned by no one, power pertuals have no governable
+              parameters and no external oracle dependencies.
             </p>
           </div>
           <div className="">
